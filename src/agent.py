@@ -63,7 +63,7 @@ Plan of action:
 Do not use LaTeX in your responses. When giving a final answer, use Markdown.
 """
 
-root_agent = LlmAgent(
+data_agent = LlmAgent(
   model='gemini-2.5-flash',
   name="data_agent",
   instruction=system_instruction,
