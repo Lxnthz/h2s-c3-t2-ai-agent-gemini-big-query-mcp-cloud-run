@@ -41,7 +41,7 @@ bigquery_toolset = McpToolset(
 )
 
 # AGENT INSTRUCTIONS
-system_instruction = """
+system_instruction = f"""
 You are a helpful assistant that can answer questions about data in BigQuery.
 To answer the user's question, use data you have access to by using tools `list_table_ids` and `get_table_info`.
 Your data is in `bigquery-public-data.new_york_citibike` dataset (Citi Bike trips and stations in the NYC area.)
