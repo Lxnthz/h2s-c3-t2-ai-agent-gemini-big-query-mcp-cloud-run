@@ -53,7 +53,7 @@ uv tool run --from google-adk==2.4.0 \
       --region $GOOGLE_CLOUD_REGION \
       --service_name bq-data-agent \
       --app_name data_agent \
-      data_agent \
+      src \
       -- \
       --allow-unauthenticated \
       --max-instances 1 \
